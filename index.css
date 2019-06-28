@@ -1,0 +1,42 @@
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+html,
+body {
+    margin: 0px;
+}
+
+#board {
+    padding: 15px;
+}
+
+.row {
+    width: 500px;
+    height: 50px;
+}
+
+.row div {
+    width: 50px;
+    height: 50px;
+    float: left;
+    border: 1px solid #FFF;
+}
+
+/* .row div[data-c="null"] {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.row div[data-c="0"] {
+    background-color: #333;
+}
+.row div[data-c="1"] {
+    background-color: #cecece;
+} */
