@@ -31,6 +31,10 @@ body {
     border: 1px solid #FFF;
 }
 
+.row div.selected {
+    border-color: green;
+}
+
 /* .row div[data-c="null"] {
     background-color: rgba(0, 0, 0, 0.1);
 }
